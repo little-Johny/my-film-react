@@ -1,0 +1,66 @@
+.VideoCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 36px;
+    color: black;
+    width: 456px;
+    max-width: 456px;
+    height: 150px;
+    margin: 24px;
+    border-radius: 32px;
+}
+
+
+.VideoImg {
+    border-radius:16px;
+    max-width: 135px; /* Para que la imagen ocupe el ancho disponible */
+    max-height: 250px;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.VideoInfo {
+    max-width: 400px;
+    margin: 0 32px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start; /* Asegúrate de que esto funcione con tu diseño */
+}
+
+.VideoInfo h2 {
+    overflow: hidden;            /* Oculta el desbordamiento */
+    text-overflow: ellipsis;    /* Muestra "..." al final del texto */
+    white-space: nowrap;         /* Evita el salto de línea */
+    width: 100%;                /* Asegura que ocupe el 100% del contenedor */
+    max-width: 200px;           /* O un ancho fijo que se ajuste a tu diseño */
+}
+
+.LikeButton{
+    border: none;
+    cursor: pointer;
+    background:white;
+    width: 40px;
+    height: 40px;
+}
+
+.Corazoncito{
+    width: 40px;
+    height: 40px;
+    color:grey;
+}
+
+.Corazoncito--active{
+    width: 40px;
+    height: 40px;
+    color:grey;
+    
+}
+
+.Average{
+    color: green;
+    font-weight: bold;
+}
